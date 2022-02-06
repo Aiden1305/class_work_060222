@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+main {
+	width: 900px;
+	height: 900px;
+	background: #000;
+	margin: 0 auto;
+	border: 10px solid #424242;
+	overflow: hidden;
+
+}
+
+main aside {
+	width: 17%;
+	float: left;
+}
+
+main aside div {
+	background: grey;
+	height: 99px;
+	width: 100%;
+	margin: 10px 0 0px 10px;
+}
+
+main section {
+	width: 81%;
+	float: left;
+	overflow: hidden;
+	margin: 10px 0 0 10px;
+}
+
+main section div {
+	width: 23.4%;
+	height: 208px;
+	margin: 0 0 10px 10px;
+	float: left;
+	background: red;
+}
+
+.blue {
+	background: blue;
+}
+
+.orange {
+	background: orange;
+}
+
+.gold {
+	background: gold;
+}
+
+.green {
+	background: green;
+}
+
+div:hover {
+	opacity: .8;
+}
+
+div:active {
+	background: red;
+}
